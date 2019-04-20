@@ -1,6 +1,6 @@
 # Clare Placeholder
 
-A super simple spalsh-page/placeholder for Clare's folio site.
+A super simple spalsh-page/placeholder for Clare's folio site. View it [here](https://clare-placeholder.netlify.com/).
 
 ## Development
 
