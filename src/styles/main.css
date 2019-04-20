@@ -22,9 +22,11 @@ body {
 
 nav {
   color: var(--hero-color);
+  height: 4rem;
 }
 
 header {
+  height: 80%;
   text-align: center;
 }
 
@@ -36,11 +38,13 @@ header>img {
 
 section.title {
   background-color: #fff;
-  padding: 5rem;
+  height: 5rem;
+  padding: 2rem;
 }
 
 section.title>svg {
   width: 100%;
+  height: 5rem;
   fill: var(--title-color);
 }
 
