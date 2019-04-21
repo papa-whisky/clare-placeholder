@@ -82,9 +82,9 @@ section.scrolling>section.title>svg {
 }
 
 section.scrolling>section.about {
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   color: var(--hero-color);
-  height: 100%;
+  height: 125%;
   background-color: var(--background-color);
   display: flex;
   flex-direction: column;
