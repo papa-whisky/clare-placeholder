@@ -2,9 +2,9 @@ const themes = [
   {
     hero: {
       color: "#f15f57",
-      hue:"3deg",
-      saturation:"85%",
-      brightness:"128%"
+      hue: "3deg",
+      saturation: "85%",
+      brightness: "128%"
     },
     background: {
       color: "#eff0d1"
