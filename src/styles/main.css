@@ -82,6 +82,8 @@ section.scrolling>section.title>svg {
 }
 
 section.scrolling>section.about {
+  font-family: 'Roboto', sans-serif;
+  padding: 0 1em;
   scroll-snap-align: center;
   color: var(--hero-color);
   height: 125%;
@@ -89,4 +91,12 @@ section.scrolling>section.about {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+section.scrolling>section.about>p.underline {
+  text-decoration: underline;
+}
+
+section.scrolling>section.about>p.italic {
+  font-style: italic;
 }
