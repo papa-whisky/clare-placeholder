@@ -18,10 +18,10 @@ nav {
   color: var(--hero-color);
 
   .scroll-arrow-wrapper .scroll-arrow {
-    background-color: #000;
+    background-color: var(--hero-color);
 
     &:before {
-      background-color: #000;
+      background-color: var(--hero-color);
     }
   }
 }
@@ -38,9 +38,12 @@ nav {
 }
 
 .scrolling {
-  .title svg {
+  .title .svg-wrapper {
     background-color: #fff;
-    fill: var(--title-color);
+
+    svg {
+      fill: var(--title-color);
+    }
   }
 
   .about {
