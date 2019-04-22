@@ -1,8 +1,11 @@
 :root {
   --hero-color: #0b506c;
-  --hero-hue: 197deg;
+  --hero-invert: 0%;
+  --hero-sepia: 0%;
   --hero-saturate: 82%;
+  --hero-hue: 197deg;
   --hero-brightness: 46%;
+  --hero-contrast: 0%;
   --background-color: #f7c69f;
   --title-color: #98cec6;
 }
@@ -26,9 +29,12 @@ nav {
 .fixed header img {
   // The 'unquote' is a hacky workaround for a bug where scss won't compile
   // filter functions correctly.
-  filter: unquote("hue-rotate(var(--hero-hue))")
+  filter: unquote("invert(var(--hero-invert))")
+    unquote("sepia(var(--hero-sepia))")
     unquote("saturate(var(--hero-saturate))")
-    unquote("brightness(var(--hero-brightness))");
+    unquote("hue-rotate(var(--hero-hue))")
+    unquote("brightness(var(--hero-brightness))")
+    unquote("contrast(var(--hero-contrast))");
 }
 
 .scrolling {

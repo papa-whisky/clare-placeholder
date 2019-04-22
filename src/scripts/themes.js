@@ -2,9 +2,12 @@ const themes = [
   {
     hero: {
       color: "#0b506c",
-      hue: "197deg",
-      saturation: "82%",
-      brightness: "46%"
+      invert: "25%",
+      sepia: "26%",
+      saturation: "1606%",
+      hue: "154deg",
+      brightness: "96%",
+      contrast: "95%"
     },
     background: {
       color: "#f7c69f"
@@ -16,9 +19,12 @@ const themes = [
   {
     hero: {
       color: "#f15f57",
-      hue: "3deg",
-      saturation: "85%",
-      brightness: "128%"
+      invert: "53%",
+      sepia: "10%",
+      saturation: "3367%",
+      hue: "314deg",
+      brightness: "94%",
+      contrast: "100%"
     },
     background: {
       color: "#eff0d1"
@@ -30,9 +36,12 @@ const themes = [
   {
     hero: {
       color: "#020202",
-      hue: "0deg",
-      saturation: "0%",
-      brightness: "2%"
+      invert: "0%",
+      sepia: "0%",
+      saturation: "7477%",
+      hue: "267deg",
+      brightness: "107%",
+      contrast: "98%"
     },
     background: {
       color: "#f0f821"
@@ -44,9 +53,12 @@ const themes = [
   {
     hero: {
       color: "#efbbd3",
-      hue: "332deg",
-      saturation: "62%",
-      brightness: "168%"
+      invert: "84%",
+      sepia: "25%",
+      saturation: "526%",
+      hue: "292deg",
+      brightness: "95%",
+      contrast: "97%"
     },
     background: {
       color: "#db4168"
@@ -58,9 +70,12 @@ const themes = [
   {
     hero: {
       color: "#7f9183",
-      hue: "133deg",
-      saturation: "8%",
-      brightness: "106%"
+      invert: "61%",
+      sepia: "20%",
+      saturation: "218%",
+      hue: "81deg",
+      brightness: "87%",
+      contrast: "84%"
     },
     background: {
       color: "#ddd5d0"
@@ -72,9 +87,12 @@ const themes = [
   {
     hero: {
       color: "#e1d78a",
-      hue: "53deg",
-      saturation: "59%",
-      brightness: "142%"
+      invert: "93%",
+      sepia: "36%",
+      saturation: "544%",
+      hue: "340deg",
+      brightness: "96%",
+      contrast: "84%"
     },
     background: {
       color: "#8e453e"
@@ -86,9 +104,12 @@ const themes = [
   {
     hero: {
       color: "#dc94c0",
-      hue: "323deg",
-      saturation: "51%",
-      brightness: "144%"
+      invert: "92%",
+      sepia: "10%",
+      saturation: "2981%",
+      hue: "281deg",
+      brightness: "91%",
+      contrast: "88%"
     },
     background: {
       color: "#e9d3d0"
@@ -100,9 +121,12 @@ const themes = [
   {
     hero: {
       color: "#292f36",
-      hue: "212deg",
-      saturation: "14%",
-      brightness: "38%"
+      invert: "14%",
+      sepia: "17%",
+      saturation: "561%",
+      hue: "172deg",
+      brightness: "102%",
+      contrast: "89%"
     },
     background: {
       color: "#f26b6c"
@@ -114,9 +138,12 @@ const themes = [
   {
     hero: {
       color: "#86625c",
-      hue: "9deg",
-      saturation: "19%",
-      brightness: "88%"
+      invert: "39%",
+      sepia: "16%",
+      saturation: "775%",
+      hue: "321deg",
+      brightness: "98%",
+      contrast: "84%"
     },
     background: {
       color: "#ffeddf"
@@ -128,9 +155,12 @@ const themes = [
   {
     hero: {
       color: "#f8afb3",
-      hue: "357deg",
-      saturation: "84%",
-      brightness: "166%"
+      invert: "75%",
+      sepia: "18%",
+      saturation: "750%",
+      hue: "308deg",
+      brightness: "101%",
+      contrast: "94%"
     },
     background: {
       color: "#435e94"
@@ -142,9 +172,12 @@ const themes = [
   {
     hero: {
       color: "#81a2a0",
-      hue: "176deg",
-      saturation: "15%",
-      brightness: "57%"
+      invert: "65%",
+      sepia: "8%",
+      saturation: "830%",
+      hue: "127deg",
+      brightness: "96%",
+      contrast: "80%"
     },
     background: {
       color: "#f0f3c4"
