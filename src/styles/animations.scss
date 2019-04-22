@@ -1,0 +1,19 @@
+nav .scroll-arrow-wrapper .scroll-arrow {
+  transition: all 0.2s ease-out;
+
+  &:before {
+    transition: all 0.2s ease-out;
+  }
+}
+
+.scrolling {
+  scroll-snap-type: y mandatory;
+
+  .title {
+    scroll-snap-align: start;
+  }
+
+  .about {
+    scroll-snap-align: center;
+  }
+}

@@ -1,0 +1,111 @@
+$arrow-size: 3rem;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+
+// Nav bar arrow layout
+
+nav {
+  height: 4rem;
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+
+  .scroll-arrow-wrapper {
+    width: $arrow-size;
+    height: $arrow-size;
+    margin: 0 auto;
+
+    .scroll-arrow {
+      width: $arrow-size;
+      height: 2px;
+      transform-origin: 50% 50%;
+      transform: rotate(45deg) translate(0px, $arrow-size / 2);
+
+      &:before {
+        content: " ";
+        position: absolute;
+        height: 2px;
+        width: $arrow-size;
+        top: 0;
+        left: 0;
+        transform-origin: 50% 50%;
+        transform: rotate(-90deg) translate($arrow-size / 2, $arrow-size / 2);
+      }
+    }
+
+    &.reverse-arrow .scroll-arrow {
+      transform: rotate(45deg) translate($arrow-size / 2, 0px);
+
+      &:before {
+        transform: rotate(-90deg) translate(-$arrow-size / 2, -$arrow-size / 2);
+      }
+    }
+  }
+}
+
+// Fixed section layout
+
+.fixed {
+  height: 100%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+
+  header {
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+
+    img {
+      width: 85%;
+    }
+  }
+
+  .spacer {
+    height: 10rem;
+  }
+}
+
+// Scrolling section layout
+
+.scrolling {
+  height: 100%;
+  z-index: 2;
+  position: relative;
+  overflow: scroll;
+
+  .title {
+    height: 100%;
+
+    .spacer {
+      height: calc(100% - 5rem);
+    }
+
+    svg {
+      width: 100%;
+      height: 5rem;
+    }
+  }
+
+  .about {
+    padding: 0 1em;
+    height: 125%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
