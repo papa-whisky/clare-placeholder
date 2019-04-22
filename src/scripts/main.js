@@ -75,3 +75,18 @@ root.addEventListener("click", e => {
 
   currentTheme = themes.findIndex(e => e === theme);
 });
+
+const arrow = document.querySelector(".scroll-arrow-wrapper");
+
+import enterView from "enter-view";
+
+enterView({
+  selector: ".about",
+  enter: () => {
+    arrow.classList.add("reverse-arrow");
+  },
+  exit: () => {
+    arrow.classList.remove("reverse-arrow");
+  },
+  offset: 0.5
+});

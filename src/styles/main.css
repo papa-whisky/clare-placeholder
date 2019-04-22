@@ -28,6 +28,43 @@ nav {
   width: 100%;
 }
 
+nav > div.scroll-arrow-wrapper {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+nav > div.scroll-arrow-wrapper > div.scroll-arrow {
+  width: 3rem;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 1);
+  transform-origin: 50% 50%;
+  transition: all 0.2s ease-out;
+  transform: rotate(45deg) translate(0px, 1.5rem);
+}
+
+nav > div.scroll-arrow-wrapper > div.scroll-arrow::before {
+  content: " ";
+  position: absolute;
+  height: 2px;
+  width: 3rem;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 1);
+  transform-origin: 50% 50%;
+  transition: all 0.2s ease-out;
+  transform: rotate(-90deg) translate(1.5rem, 1.5rem);
+}
+
+nav > div.scroll-arrow-wrapper.reverse-arrow > div.scroll-arrow {
+  transform: rotate(45deg) translate(calc(3rem / 2), 0px);
+}
+
+nav > div.scroll-arrow-wrapper.reverse-arrow > div.scroll-arrow::before {
+  transform: rotate(-90deg) translate(calc(-3rem / 2), calc(-3rem / 2));
+}
+
 section.fixed {
   height: 100%;
   position: fixed;
