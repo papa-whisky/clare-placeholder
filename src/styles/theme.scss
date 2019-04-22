@@ -1,0 +1,44 @@
+:root {
+  --hero-color: #0b506c;
+  --hero-hue: 197deg;
+  --hero-saturate: 82%;
+  --hero-brightness: 46%;
+  --background-color: #f7c69f;
+  --title-color: #98cec6;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+nav {
+  color: var(--hero-color);
+
+  .scroll-arrow-wrapper .scroll-arrow {
+    background-color: #000;
+
+    &:before {
+      background-color: #000;
+    }
+  }
+}
+
+.fixed header img {
+  // The 'unquote' is a hacky workaround for a bug where scss won't compile
+  // filter functions correctly.
+  filter: unquote("hue-rotate(var(--hero-hue))")
+    unquote("saturate(var(--hero-saturate))")
+    unquote("brightness(var(--hero-brightness))");
+}
+
+.scrolling {
+  .title svg {
+    background-color: #fff;
+    fill: var(--title-color);
+  }
+
+  .about {
+    color: var(--hero-color);
+    background-color: var(--background-color);
+  }
+}
