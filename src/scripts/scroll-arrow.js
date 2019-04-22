@@ -2,7 +2,7 @@ import enterView from "enter-view";
 
 const arrow = document.querySelector(".scroll-arrow-wrapper");
 
-export default function init() {
+export default () => {
   enterView({
     selector: ".about",
     enter: () => {
@@ -13,4 +13,4 @@ export default function init() {
     },
     offset: 0.5
   });
-}
+};

@@ -3,7 +3,7 @@ import themes from "./themes";
 let currentTheme = 0;
 const root = document.documentElement;
 
-export default function init() {
+export default () => {
   root.addEventListener("click", e => {
     const freshThemes = themes.filter((_, i) => i !== currentTheme);
     const newTheme = Math.floor(Math.random() * freshThemes.length);
@@ -18,4 +18,4 @@ export default function init() {
 
     currentTheme = themes.findIndex(e => e === theme);
   });
-}
+};
