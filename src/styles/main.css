@@ -57,6 +57,14 @@ nav > div.scroll-arrow-wrapper > div.scroll-arrow::before {
   transform: rotate(-90deg) translate(1.5rem, 1.5rem);
 }
 
+nav > div.scroll-arrow-wrapper.reverse-arrow > div.scroll-arrow {
+  transform: rotate(45deg) translate(calc(3rem / 2), 0px);
+}
+
+nav > div.scroll-arrow-wrapper.reverse-arrow > div.scroll-arrow::before {
+  transform: rotate(-90deg) translate(calc(-3rem / 2), calc(-3rem / 2));
+}
+
 section.fixed {
   height: 100%;
   position: fixed;

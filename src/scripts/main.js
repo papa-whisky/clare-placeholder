@@ -75,3 +75,7 @@ root.addEventListener("click", e => {
 
   currentTheme = themes.findIndex(e => e === theme);
 });
+
+document.querySelector(".scroll-arrow-wrapper").addEventListener("click", e => {
+  e.target.classList.toggle("reverse-arrow");
+});
