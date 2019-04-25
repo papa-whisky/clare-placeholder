@@ -321,6 +321,142 @@ const themes = [
     title: {
       color: "#f4989c"
     }
+  },
+  {
+    hero: {
+      color: "#8aea92",
+      invert: "80%",
+      sepia: "29%",
+      saturation: "546%",
+      hue: "73deg",
+      brightness: "96%",
+      contrast: "100%"
+    },
+    background: {
+      color: "#33202a"
+    },
+    title: {
+      color: "#80ada0"
+    }
+  },
+  {
+    hero: {
+      color: "#564154",
+      invert: "28%",
+      sepia: "9%",
+      saturation: "1186%",
+      hue: "255deg",
+      brightness: "90%",
+      contrast: "92%"
+    },
+    background: {
+      color: "#ff6542"
+    },
+    title: {
+      color: "#23395b"
+    }
+  },
+  {
+    hero: {
+      color: "#bced09",
+      invert: "82%",
+      sepia: "83%",
+      saturation: "6751%",
+      hue: "13deg",
+      brightness: "95%",
+      contrast: "94%"
+    },
+    background: {
+      color: "#0022bc"
+    },
+    title: {
+      color: "#ff715b"
+    }
+  },
+  {
+    hero: {
+      color: "#261447",
+      invert: "12%",
+      sepia: "21%",
+      saturation: "4146%",
+      hue: "237deg",
+      brightness: "87%",
+      contrast: "104%"
+    },
+    background: {
+      color: "#f39c6b"
+    },
+    title: {
+      color: "#cc978e"
+    }
+  },
+  {
+    hero: {
+      color: "#fe5f55",
+      invert: "47%",
+      sepia: "34%",
+      saturation: "1130%",
+      hue: "315deg",
+      brightness: "101%",
+      contrast: "99%"
+    },
+    background: {
+      color: "#c6ecae"
+    },
+    title: {
+      color: "#885053"
+    }
+  },
+  {
+    hero: {
+      color: "#1be7ff",
+      invert: "73%",
+      sepia: "70%",
+      saturation: "2534%",
+      hue: "152deg",
+      brightness: "108%",
+      contrast: "102%"
+    },
+    background: {
+      color: "#e4ff1a"
+    },
+    title: {
+      color: "#ff5714"
+    }
+  },
+  {
+    hero: {
+      color: "#ecebe4",
+      invert: "99%",
+      sepia: "1%",
+      saturation: "971%",
+      hue: "3deg",
+      brightness: "97%",
+      contrast: "92%"
+    },
+    background: {
+      color: "#fafaff"
+    },
+    title: {
+      color: "#daddd8"
+    }
+  },
+  {
+    hero: {
+      color: "#dfefca",
+      invert: "93%",
+      sepia: "11%",
+      saturation: "453%",
+      hue: "40deg",
+      brightness: "100%",
+      contrast: "93%"
+    },
+    background: {
+      color: "#d2d0ba"
+    },
+    title: {
+      color: "#5e747f"
+    }
   }
 ];
 
