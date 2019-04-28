@@ -22,9 +22,6 @@ function switchTheme() {
 }
 
 export default () => {
-  root.addEventListener("click", e => {
-    switchTheme();
-  });
-
+  root.onclick = switchTheme;
   switchTheme(); // Set initial theme on page load
 };
