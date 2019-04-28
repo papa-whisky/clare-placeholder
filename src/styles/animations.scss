@@ -8,6 +8,7 @@ nav .scroll-arrow-wrapper .scroll-arrow {
 
 .scrolling {
   scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
 
   .title {
     scroll-snap-align: start;
