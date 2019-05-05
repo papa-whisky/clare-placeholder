@@ -26,6 +26,7 @@ nav {
   .scroll-arrow-wrapper {
     width: $arrow-size;
     height: $arrow-size;
+    cursor: pointer;
 
     .scroll-arrow {
       width: $arrow-size;
