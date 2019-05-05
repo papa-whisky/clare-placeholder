@@ -1,8 +1,15 @@
 .scrolling .about {
   font-family: "Roboto", sans-serif;
-  font-size: 1.1rem;
 
-  a {
-    color: inherit;
+  .main {
+    font-size: 1.6rem;
+  }
+
+  footer {
+    font-size: 1rem;
+
+    a {
+      color: inherit;
+    }
   }
 }
