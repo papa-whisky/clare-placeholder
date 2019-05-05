@@ -11,6 +11,7 @@
     "sass": "^1.19.0"
   },
   "dependencies": {
-    "enter-view": "^2.0.0"
+    "enter-view": "^2.0.0",
+    "seamless-scroll-polyfill": "^1.0.2"
   }
 }

@@ -1,4 +1,6 @@
 import enterView from "enter-view";
+import { polyfill } from "seamless-scroll-polyfill";
+polyfill();
 
 const arrow = document.querySelector(".scroll-arrow-wrapper");
 const about = document.querySelector(".about");
