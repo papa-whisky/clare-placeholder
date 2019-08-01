@@ -49,5 +49,11 @@ nav {
   .about {
     color: var(--hero-color);
     background-color: var(--background-color);
+
+    a:visited,
+    a:hover,
+    a:active {
+      color: inherit;
+    }
   }
 }
